@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 from shop.models import Product 
 from django.db.models.signals import post_save
 from django_jalali.db import models as jmodels
+from django.utils import timezone
 import jdatetime
 
 
